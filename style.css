@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    background: #070000;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #070000, #4C0001, #070000);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #070000, #4C0001, #070000);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+button {
+    background-color: #4CAF50;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 15px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+    width: 110px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+button:hover {
+    background: darkgreen;
+}
+
+.centerButtons {
+    display: block;
+    text-align: center;
+
+}
+
+.sliderContainer1 {
+/*    background: orange;*/
+    margin: 0 auto;
+    width: 500px;
+    margin-top: 5px;
+}
+
+.sliderContainer1 h1 {
+    text-align: center;
+    color: white;
+    font-family: monospace, sans-serif;
+    padding-top: 10px;
+    margin-top: 0;
+}
+
+.sliderContainer1 img {
+    display: none;
+    /*    margin: 0 auto;*/
+    border: 3px solid red;
+    border-radius: 50px;
+}
+
+.sliderContainer1 .activeImg {
+    display: block;
+    margin: 0 auto;
+    border-radius: 40px;
+}
+
+
+
+.sliderContainer2 {
+    overflow: hidden;
+    width: 250px;
+    margin: 0 auto;
+}
+
+.row {
+    width: 1500px;
+    position: relative;
+    right: 0;
+    transition: all ease 0.4s;
+}
+
+.sliderContainer2 img {
+/*    background: lightgreen;*/
+    float: left;
+    border-radius: 40px;
+}
+
+.sliderContainer2 h1 {
+    text-align: center;
+    color: white;
+    font-family: monospace, sans-serif;
+    padding-top: 10px;
+    margin-top: 0;
+}
+
+.slider2Color {
+/*    background-color: cyan;*/
+    width: 500px;
+    margin: 0 auto;
+}
